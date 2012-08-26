@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SMViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *partyLabel;
+@property (weak, nonatomic) IBOutlet UIProgressView *partyProgress;
+
+@property (weak, nonatomic) IBOutlet UITextView *studyView;
+@property (weak, nonatomic) IBOutlet UILabel *studyLabel;
 
 @end
